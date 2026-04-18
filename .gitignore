@@ -1,0 +1,8 @@
+# Environments
+.env
+__pycache__/
+
+# Large Data & Weights (Optional: comment these out if your grader wants to see the weights)
+input/tinyshakespeare.txt
+results/*.pt
+results/*.pth

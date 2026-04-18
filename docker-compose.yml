@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    image: char-gen-models
+    volumes:
+      # Map local directories to container directories
+      - ./input:/app/input
+      - ./results:/app/results
+      - ./src:/app/src
+    env_file:
+      - .env
+    # We allocate a pseudo-TTY so logs print nicely to your terminal
+    tty: true
