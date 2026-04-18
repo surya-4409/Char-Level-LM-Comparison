@@ -1,12 +1,30 @@
 {
     "lstm": {
-        "0.5": "First Citizen:\nBut the recond to go so have fine the burms the mister to have the may be the may reasure with hear the father to will shall the frield,\nThou some the have the ward\nTo the ince to know your lord and t",
-        "1.0": "First Citizen:\nHe, solest tull wollo, thou shom, haste.\n\nCoft that lend thine, at sished,\nWelt;\nHorth.\n\nLXEOSUS:\nHocks that provate onour ghom on your traise these it you love to murrest: let with centle;\nSo villiat",
-        "1.5": "First Citizen:\nA. Your sheld, and promys\nfictlemorbess,\nWom; in mtikivised bor'm.\n\nJUMLIFF:\nLwoneel:\nand men it, purhiend.\nNO.\n\nLROLANTO:\nThole here leake corneed.\n\nCORIOLANR:\nWhok,\nThithough riismcidion\nas,\nAnd, do"
+        "temperature_0.5": [
+            "First Citizen:\nThom and thou art thou not the send the well these which true to become a heart he the more the beath a may them have and thou grator that have his seat to the canmore him the king,\nI and for strausor",
+            "First Citizen:\nAnd that there well the battle and her shall there, which for the prink and father in! I see hath and with is have my leave that he shall that be the count that me man a be the should that you have th"
+        ],
+        "temperature_1.0": [
+            "First Citizen:\nWhich stayst thou hats some in your astele, King on here and lake there own father, it gold;\nI it.\n\nArost at wholemy not.\nComfely him,\nYou ginled are that is spats is thime.\nTill for canbomes can shre",
+            "First Citizen:\nBeerise tatih;\nPean defiins porron is but heavank the rooy. Warape; many retid.\n\nCRAMENLA:\nOy were is listress gomy were dreef my night epy and other ammary,\nAnd at shralf;\nCourry.\nThen samfution, and"
+        ],
+        "temperature_1.5": [
+            "First Citizen:\nHeinmul thone they noneroe.\n'\nLet us my have Romeo notcheen\nceubsedmy:\nBloke,\nTo manisi.\nBUwanl amy maRlosce you?\nWhelk guTsingnrraid, m,\nGladywer:'\n: tousadath!.\nUdtard she himp anothes I have meils.",
+            "First Citizen:\nCrawns,\nVNuntire.\n\nMARLENES:\nHobebash\nOne, cowp, beswer;\nA days-pon younds wond to you!\n\nLUCIY:\nSeeisous these. Barverd, Ricson.\nAnd Many more meagics sistisy.\nThoughs Epcion,\nHis hamy shtince, buting"
+        ]
     },
     "transformer": {
-        "0.5": "First Citizen:\nI hath that was a shall have of this shall shis shall we\nTo such his fier the when the dear their thy care\nWith shall so what not my listard's with his brother.\n\nBRUTUS:\nWhat where swords we'll her pe",
-        "1.0": "First Citizen:\nWhen of it that leave my will greach, chis,\nQranter, Timan is quen Lig, ast onemaritugn!\n\nDUCESTIO:\nBut, we thousily. Comerself thee all denden.\nO, by breed in a lorney loak Edward Rise,\nNay-orlk? whe",
-        "1.5": "First Citizen:\nSen paiXf, would ktefleers Edlumen! love.\n\nLAx:\nMusme:\nEre! O, Bod, thet Will yoquANrother,--agaems,\nWith Vount histarius, kindly.\n\nWABcassagn\nTHere maje see, with: her, armill, Ridove king,\nAs as tel"
+        "temperature_0.5": [
+            "First Citizen:\nThe do as not the dear the seep thee hath my to beare;\nThese are and will a should for the brother dear\nThan will death hers of the shall the being him.\n\nBRAMILLAND:\nBut I had I have made lords maken ",
+            "First Citizen:\nAnd her his death so it, the virtue.\n\nSecond Lord Claren:\nBut a not of the deast the how the brothers?\n\nBELLOUCESTER:\nThere shall he counten of the his will were a such the hade\nTo the countient the s"
+        ],
+        "temperature_1.0": [
+            "First Citizen:\nO, thath Genot, fhis I problease, it.\nO, reso, I look now all, sands; boh from my nobjear'd\nBaid an think me; theresongerming offies,\nWhich with my here selpose moor friend that of the gran\nUnlage mor",
+            "First Citizen:\nomuse to Right nost fachapess pity that that king?\n\nPRIOLANUS:\nLove tit. Awaceft would that I'll scy lords, than bast to fach'd;\nFirst spole, she seep all it sto fice,\nWe proy theward not cerm, Mark'd"
+        ],
+        "temperature_1.5": [
+            "First Citizen:\nWill nest:\nYou dee, I thevore; I bust Brieudwesst n'l-owOrg,\nSemillopu\nwell provair oices. Thows name eveng.\nGo,Terisply shall untuzmed do that bid,\nTo hatCamon, my seaved? I pawerveselquit\nHell: 't, ",
+            "First Citizen:\nI's, 'tk'd besenaNs'; weels'scamentwivingolf\nCstins! worlTo shall blook, sreaved,\nThe amoaze. No Mlaice, Esome, sie, 'Twlysbe\nClast Foot Wrow?\n\nISAM:\nMarttynos this hour count Vintaren\nfrom-moitched, "
+        ]
     }
 }

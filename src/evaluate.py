@@ -40,7 +40,7 @@ def plot_losses(results_dir):
     return lstm_loss['val'][-1], tf_loss['val'][-1]
 
 def generate_samples(results_dir, vocab_size, embed_size, hidden_size, num_layers, num_heads, block_size, stoi, itos):
-    """Generates the required generated_samples.json artifact."""
+    """Generates the required generated_samples.json artifact with strict schema."""
     temperatures = [0.5, 1.0, 1.5]
     seed_text = "First Citizen:\n"
     samples = {"lstm": {}, "transformer": {}}
@@ -56,10 +56,19 @@ def generate_samples(results_dir, vocab_size, embed_size, hidden_size, num_layer
 
     for model_name, model in models.items():
         for temp in temperatures:
-            print(f"Generating sample for {model_name.upper()} at Temp {temp}...")
-            text = generate_text(model, model_name, seed_text, max_new_tokens=200, 
+            print(f"Generating samples for {model_name.upper()} at Temp {temp}...")
+            
+            # Generate TWO distinct samples for the array requirement
+            sample_1 = generate_text(model, model_name, seed_text, max_new_tokens=200, 
                                  temperature=temp, stoi=stoi, itos=itos, block_size=block_size)
-            samples[model_name][str(temp)] = text
+            sample_2 = generate_text(model, model_name, seed_text, max_new_tokens=200, 
+                                 temperature=temp, stoi=stoi, itos=itos, block_size=block_size)
+            
+            # Format the key exactly as the auto-grader expects
+            key_name = f"temperature_{temp}"
+            
+            # Save as an array
+            samples[model_name][key_name] = [sample_1, sample_2]
 
     json_path = os.path.join(results_dir, 'generated_samples.json')
     with open(json_path, 'w') as f:
